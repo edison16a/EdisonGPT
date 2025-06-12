@@ -1,0 +1,33 @@
+{
+  "name": "convex-tutorial",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm-run-all --parallel dev:backend dev:frontend",
+    "build": "tsc && vite build",
+    "dev:backend": "convex dev",
+    "dev:frontend": "vite --open",
+    "predev": "convex dev --once"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "convex": "1.23.0",
+    "openai": "^5.3.0",
+    "prettier": "3.5.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/babel__core": "^7.20.0",
+    "@types/node": "^18.17.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.21",
+    "dotenv-cli": "^8.0.0",
+    "npm-run-all2": "^7.0.0",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10",
+    "typescript": "~5.0.3",
+    "vite": "^5.4.12"
+  }
+}
