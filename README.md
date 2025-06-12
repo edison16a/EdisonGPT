@@ -1,6 +1,9 @@
-# Convex tutorial
+### Check out my AI chatbot with Inf Chat Storage → [edison-gpt.vercel.app](https://edison-gpt.vercel.app/)
 
-You're just a few minutes away from having a chat app powered by Convex.
+Real-time chat bot:
 
-Follow the tutorial at
-[docs.convex.dev/tutorial](https://docs.convex.dev/tutorial) for instructions.
+* **GPT-4o-mini** via the OpenAI API
+* **Convex** to save messages and stream updates using queries and mutations
+* **React + Vite + Typescript** for the front end
+
+
